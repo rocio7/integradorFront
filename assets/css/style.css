@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    top:0;
+    left:0;
+    right: 0;
+    background: #053055;
+    padding: 2rem 5%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    
+}
+header img{
+    width: 10rem;
+    height: 6rem;
+}
+header .logo{
+    font-size: 1.5rem;
+    color:white;
+    font-weight:300;
+    text-decoration:none;
+}
+header .navbar a{
+    font-size: 1.2rem;
+    padding:  0 1.5rem;
+    color:rgb(149, 145, 145);
+    font-weight:600;
+    text-decoration:none;
+}
+header .navbar a:hover{
+    color:rgb(255, 170, 0);
+}
+header .navbar .white{
+    color: white;
+}
+header .navbar .green{
+    color: rgb(32, 159, 13);
+}
+
+.home{
+    min-height: 100vh;
+    background: url(/assets/img/ba1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+
+.home .content {
+    border: 1rem solid white;
+    max-width: 80rem;
+    
+    
+}
+.home .content h3{
+    font-size: 4rem;
+    color: white;
+    text-align: right;
+}
+.home .content p{
+    text-align: right;
+    font-size: 2.5rem;
+    color: white;
+}
+.home .content-botones{
+    display: flex;
+}
+
+.home .content-botones .btn-white{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border: .25rem solid white;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.home .content-botones .btn-green{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: #198754;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+.boton-span{
+    width: 2.3rem;
+    height: 2.3em;
+}
+
+.button {
+    width: 50px;
+}
+
+.text-home{
+    position: absolute;
+    top:350px;
+}
+
+.img{
+    vertical-align: middle;
+}
+.img-banner{
+    background-size: cover;
+    filter: brightness(0.5);
+}
+
+.honolulu-banner{
+    max-width: 720px;
+}
+.honolulu-banner-description{
+    max-width: 720px;
+}
+.honolulu-img{
+    width: 100%;
+    height: 400px;
+}
+.about-bs-as {
+    max-width: 100%;
+    display: flex;
+    height: 400px;
+}
+.form-orador {
+    width: 100%;
+}
+.form-orador > div {
+    width: 100%;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+form > div > input {
+    padding: 5px;
+    border-radius: .3rem;
+    border: .05rem solid gray;
+    width: 17.5rem;
+}
+
+.underlined{
+    border-bottom: .15rem dashed rgb(0, 0, 0);
+}
+.button-send{
+    background-color: rgb(97, 167, 43);
+    width: auto;
+}
+.button-send:hover{
+    background-color: #19480c;
+
+}
+
+footer {
+    max-width: auto;
+    background-color: rgb(2, 37, 62);
+    min-height: 10vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 1.5rem;
+}
